@@ -24,6 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -37,7 +38,7 @@ img{
 
 /*QR CODE COMPONENT STYLES*/
 
-.attribution{
+.card{
     background-color: var(--White);
     text-align: center;
     margin: auto;
@@ -46,17 +47,17 @@ img{
     border-radius: 15px;
 }
 
-.img-container{
+.card .img-container{
     border-radius: 5px;
     overflow: hidden;
     margin: auto;
 }
 
-.title{
+.card .title{
     color: var(--DarkBlue);
 }
 
-.desc{
+.card .desc{
     font-size: var(--FontSizeP);
     color: var(--GrayishBlue);
 }
